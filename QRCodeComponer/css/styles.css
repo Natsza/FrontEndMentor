@@ -1,4 +1,44 @@
 * {
-	width: 1440px;
-	color: hsl(212, 45%, 89%);
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	max-width: 90rem;
+}
+
+body {
+	background-color: hsl(212, 45%, 89%);
+	color: hsl(220, 15%, 55%);
+	font-family: "Outfit", serif;
+	font-size: 0.875rem;
+}
+
+img {
+	width: 18.125rem;
+	height: 18.125rem;
+	margin-top: 0.875rem;
+	border-radius: 8px;
+}
+
+.QRcontainer {
+	background-color: hsl(0, 0%, 100%);
+	width: 20rem;
+	height: 30rem;
+	margin: 50px auto;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px rgba(66, 66, 66, 0.2);
+	padding: 0;
+}
+
+.QRtext {
+	margin: 0 1.25rem;
+}
+
+.highlight {
+	color: hsl(218, 44%, 22%);
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin: 1.25rem;
 }
